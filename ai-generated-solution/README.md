@@ -4,6 +4,7 @@
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
+const controller = require("./controller");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -29,42 +30,9 @@ app.use((req, res, next) => {
 });
 
 
-// Root route
-app.get("/", (req, res) => {
-  res.send("hello Adobe");
-});
-// GET /hello?name=...&age=...
-app.get("/hello", (req, res) => {
-  const { name, age } = req.query;
-  if (!name || !age) {
-    return res.status(400).send("<h1>Missing name or age query parameter</h1>");
-  }
-  res.send(`<h1>Hello there, ${name}! I hear you are ${age} years old!</h1>`);
-});
 
-// GET /home
-app.get("/home", (req, res) => {
-  res.send("<h1>home Page</h1>");
-});
-
-// GET /:itemNumber
-app.get("/:itemNumber", (req, res, next) => {
-  // Avoid conflict with /home and /greet/:name
-  if (req.params.itemNumber === "home" || req.params.itemNumber === "greet") {
-    return next();
-  }
-  res.send(`<h1>${req.params.itemNumber}</h1>`);
-});
-
-// GET /greet/:name
-app.get("/greet/:name", (req, res) => {
-  res.send(`<h1>${req.params.name}</h1>`);
-});
-
-// GET /greets/:name
-app.get("/greets/:name", (req, res) => {
-  res.send(`<h1>Welcome ${req.params.name}</h1>`);
-});
+// Use controller routes under /api
+app.use('/api', controller);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
@@ -169,5 +137,52 @@ describe('Express App Routes', () => {
     "supertest": "^7.1.4"
   }
 }
+```
+
+`controller.js`
+
+```js
+const express = require('express');
+const router = express.Router();
+
+// Root route
+router.get('/', (req, res) => {
+  res.send('hello Adobe');
+});
+
+// GET /hello?name=...&age=...
+router.get('/hello', (req, res) => {
+  const { name, age } = req.query;
+  if (!name || !age) {
+    return res.status(400).send('<h1>Missing name or age query parameter</h1>');
+  }
+  res.send(`<h1>Hello there, ${name}! I hear you are ${age} years old!</h1>`);
+});
+
+// GET /home
+router.get('/home', (req, res) => {
+  res.send('<h1>home Page</h1>');
+});
+
+// GET /:itemNumber
+router.get('/:itemNumber', (req, res, next) => {
+  // Avoid conflict with /home and /greet/:name
+  if (req.params.itemNumber === 'home' || req.params.itemNumber === 'greet') {
+    return next();
+  }
+  res.send(`<h1>${req.params.itemNumber}</h1>`);
+});
+
+// GET /greet/:name
+router.get('/greet/:name', (req, res) => {
+  res.send(`<h1>${req.params.name}</h1>`);
+});
+
+// GET /greets/:name
+router.get('/greets/:name', (req, res) => {
+  res.send(`<h1>Welcome ${req.params.name}</h1>`);
+});
+
+module.exports = router;
 ```
 
