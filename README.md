@@ -1,6 +1,6 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Build an Express Application with GitHub Copilot</span>
 </h1>
 
 tktk To get started building out this module by doing a project wide find and replace of the following:
@@ -14,13 +14,18 @@ The `canvas-landing-pages/landing.md` file is the landing page that students wil
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+In this module, you'll discover the fundamentals of scaffolding an Express application using GitHub Copilot, one of the most popular web application frameworks in the Node.js ecosystem. From setting up your first Express server to generating routes, unit tests, and middleware, this module is designed to equip you with the knowledge and skills to build efficient, scalable web applications using AI.
 
 ## Content
 
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
-| [Lesson](./lesson/README.md)  | 0 hr 0 min | Set up the development environment. |
+| [Setup](./setup/README.md)  | 0 hr 0 min | Set up the development environment. |
+| [Concepts](./concepts/README.md)  | 0 hr 0 min | Describe AI tooling |
+| [Scaffold an Express Application](./scaffold-an-express-application/README.md)  | 0 hr 0 min | Use AI to Build a basic Express server listening on port 3000|
+| [Generate URL Params Route](./generate-url-params-route/README.md)  | 0 hr 0 min | Create a GET route with URL and Quoery Parameters and res.send() a response |
+| [Generate Unit Tests](./generate-unit-tests/README.md)  | 0 hr 0 min | Create Unit tests with Jest and Supertest |
+| [Morgan Install](./morgan-install/README.md)  | 0 hr 0 min | Add Morgan middleware functions to an express server |
 
 ## Internal
 
@@ -40,7 +45,7 @@ tktk If there is not a starter code repo that students will use to start this le
 
 tktk If there is not solution code related to this module this section and all of its content should be removed.
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
+🏁 [Solution code](./ai-generated-solution/README.md)
 
 ### Course landing page
 
