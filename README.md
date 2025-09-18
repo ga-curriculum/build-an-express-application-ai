@@ -20,32 +20,22 @@ In this module, you'll discover the fundamentals of scaffolding an Express appli
 
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)  | 0 hr 0 min | Set up the development environment. |
-| [Concepts](./concepts/README.md)  | 0 hr 0 min | Describe AI tooling |
-| [Scaffold an Express Application](./scaffold-an-express-application/README.md)  | 0 hr 0 min | Use AI to Build a basic Express server listening on port 3000|
-| [Generate URL Params Routes](./generate-url-params-route/README.md)  | 0 hr 0 min | Create GET routes with URL and Query Parameters and res.send() a response |
-| [Generate Unit Tests](./generate-unit-tests/README.md)  | 0 hr 0 min | Create Unit tests with Jest and Supertest |
-| [Morgan Install](./morgan-install/README.md)  | 0 hr 0 min | Add Morgan middleware functions to an express server |
+| [Setup](./setup/README.md)  | 0 hr 10 min | Set up the development environment. |
+| [Concepts](./concepts/README.md)  | 0 hr 10 min | Describe AI tooling |
+| [Scaffold an Express Application](./scaffold-an-express-application/README.md)  | 0 hr 15 min | Use AI to Build a basic Express server listening on port 3000|
+| [Generate URL Params Routes](./generate-url-params-route/README.md)  | 0 hr 20 min | Create GET routes with URL and Query Parameters and res.send() a response |
+| [Generate Unit Tests](./generate-unit-tests/README.md)  | 0 hr 20 min | Create Unit tests with Jest and Supertest |
+| [Morgan Install](./morgan-install/README.md)  | 0 hr 15 min | Add Morgan middleware functions to an express server |
 
 ## Internal
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
+- Intro to Full-Stack Development
+- HTTP Request Response Cycle
+- Intro to Node
+- Intro to Express
 
-### Starter code
-
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Solution code
-
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](./ai-generated-solution/README.md)
 
 ### Course landing page
 
