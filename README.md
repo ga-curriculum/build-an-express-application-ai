@@ -14,7 +14,8 @@ In this module, you'll discover the fundamentals of scaffolding an Express appli
 | [Setup](./setup/README.md)  | 0 hr 10 min | Set up the development environment. |
 | [Concepts](./concepts/README.md)  | 0 hr 15 min | Understand Vibe Coding, Context and Agents |
 | [Scaffold an Express Application](./scaffold-an-express-application/README.md)  | 0 hr 10 min | Use AI to Build a basic Express server listening on port 3000|
-| [Generate URL Params Routes](./generate-url-params-route/README.md)  | 0 hr 20 min | Create GET routes with URL and Query Parameters and res.send() a response |
+| [Generate URL Params Routes](./generate-url-params-route/README.md)  | 0 hr 10 min | Create GET routes with URL and Query Parameters and res.send() a response |
+| [Refactor Routes into a Controller](./refactor-routes/README.md)  | 0 hr 10 min | Create GET routes with URL and Query Parameters and res.send() a response |
 | [Generate Unit Tests](./generate-unit-tests/README.md)  | 0 hr 20 min | Create Unit tests with Jest and Supertest |
 | [Morgan Install](./morgan-install/README.md)  | 0 hr 15 min | Add Morgan middleware functions to an express server |
 

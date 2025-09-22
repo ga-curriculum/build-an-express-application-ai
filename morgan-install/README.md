@@ -6,16 +6,15 @@
 
 ## Install Morgan
 
-```bash
-npm install morgan add incorporate it into the application
-```
+
+PROMPT: __npm install morgan and incorporate it into the application__
+
 
   ![](./assets/prompt-install-morgan.png)
 
 
-```bash
-create 2 middleware functions in app.js. the first should console log 'Middleware 1: Logging request details'. the second should console.log 'Middleware 2: Performing some operation'
-```
+PROMPT: __create 2 middleware functions in app.js. the first should console log 'Middleware 1: Logging request details'. the second should console.log 'Middleware 2: Performing some operation__
+
 
   ![](./assets/prompt-add-middleware-functions.png)
 

@@ -6,8 +6,7 @@
 
 ## Scaffold
 
-```bash
-refactor app.js. move the routes into a seperate controller file. in app.js, use express router to connect to the controller file. all requests to the controller file should be appended with '/api'
-```
+PROMPT: __refactor app.js. move the routes into a seperate controller file. in app.js, use express router to connect to the controller file. all requests to the controller file should be appended with '/api'__
+
 
 ![](./assets/refactor-routes.png)

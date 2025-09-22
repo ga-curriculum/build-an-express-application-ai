@@ -6,25 +6,20 @@
 
 ## Generate Tests
 
-```bash
-add unit tests for each route
-```
+PROMPT: __add unit tests for each route__
 
   ![](./assets/prompt-add-unit-tests.png)
 
-```bash
-install jest and supertest
-```
 
-  ![](./assets/prompt-install-jest-supertest.png)
+PROMPT: __install jest and supertest__
 
-```bash
-add a command in package.json to run the tests
-```
+  ![](./assets/prompt-install-jest-and-supertest.png)
+
+PROMPT: __add a command in package.json to run the tests__
 
   ![](./assets/prompt-add-test-command.png)
 
 
 
-![](./assets/passing-tests.png)
+  ![](./assets/passing-tests.png)
 
