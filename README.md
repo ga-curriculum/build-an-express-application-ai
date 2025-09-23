@@ -5,7 +5,7 @@
 
 ## About
 
-In this module, you'll discover the fundamentals of scaffolding an Express application using GitHub Copilot, one of the most popular web application frameworks in the Node.js ecosystem. From setting up your first Express server to generating routes, unit tests, and middleware, this module is designed to equip you with the knowledge and skills to build efficient, scalable web applications using AI.
+In this module, you'll discover the fundamentals of scaffolding an Express application using GitHub Copilot. From setting up your first Express server to generating routes, unit tests, and middleware, this module is designed to equip you with the knowledge and skills to build efficient, scalable web applications using AI.
 
 ## Content
 
@@ -13,9 +13,8 @@ In this module, you'll discover the fundamentals of scaffolding an Express appli
 | ------ |:------------------:| ------ |
 | [Setup](./setup/README.md)  | 0 hr 10 min | Set up the development environment. |
 | [Concepts](./concepts/README.md)  | 0 hr 15 min | Understand Vibe Coding, Context and Agents |
-| [Scaffold an Express Application](./scaffold-an-express-application/README.md)  | 0 hr 10 min | Use AI to Build a basic Express server listening on port 3000|
-| [Generate URL Params Routes](./generate-url-params-route/README.md)  | 0 hr 10 min | Create GET routes with URL and Query Parameters and res.send() a response |
-| [Refactor Routes into a Controller](./refactor-routes/README.md)  | 0 hr 10 min | Create GET routes with URL and Query Parameters and res.send() a response |
+| [Scaffold an Express Application](./scaffold/README.md)  | 0 hr 15 min | Use AI to Build a basic Express server listening on port 3000|
+| [Refactor Routes into a Controller](./refactor-routes/README.md)  | 0 hr 15 min | Create GET routes with URL and Query Parameters and res.send() a response |
 | [Generate Unit Tests](./generate-unit-tests/README.md)  | 0 hr 20 min | Create Unit tests with Jest and Supertest |
 | [Morgan Install](./morgan-install/README.md)  | 0 hr 15 min | Add Morgan middleware functions to an express server |
 
@@ -28,10 +27,13 @@ In this module, you'll discover the fundamentals of scaffolding an Express appli
 - Intro to Node
 - Intro to Express
 
-
 ### Course landing page
 
 - [Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/landing.html)
+
+## Solution Code
+
+[GitHub Copilot Generated Code](./solution/README.md)
 
 ### Resources
 

@@ -4,8 +4,6 @@
 
 ## Setup
 
-tktk The below is a generic starting point for lecture setup. You may need to make adjustments to this.
-
 Open your Terminal application and navigate to your <code class="filepath">~/code/ga/lectures</code> directory:
 
 ```bash

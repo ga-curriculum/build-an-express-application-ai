@@ -2,24 +2,27 @@
   <span class="headline">Generate Unit Tests for an Express Application with GitHub Copilot Concepts</span>
 </h1>
 
-**Learning Objective:**  By the end of this lesson, students will be able to use URL parameters in Express routes to handle dynamic data in requests.
-
 ## Generate Tests
 
-PROMPT: __add unit tests for each route__
+__Below is a sample prompt for an Express application. NOTE - Your GitHub Copilot generated code may vary slightly from the screenshots below. Trust but verify!__
+
+Let Github Copilot guide you through this section.
+
+__SAMPLE PROMPT:__ "add unit tests for each route"
 
   ![](./assets/prompt-add-unit-tests.png)
 
 
-PROMPT: __install jest and supertest__
+__SAMPLE PROMPT:__ "install jest and supertest"
 
   ![](./assets/prompt-install-jest-and-supertest.png)
 
-PROMPT: __add a command in package.json to run the tests__
+__SAMPLE PROMPT:__ "add a command in package.json to run the tests"
 
   ![](./assets/prompt-add-test-command.png)
 
 
+__See if all the tests pass.__
 
   ![](./assets/passing-tests.png)
 

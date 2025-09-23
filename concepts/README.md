@@ -1,9 +1,6 @@
 <h1>
-  <span class="headline">Build an Express Application with GitHub Copilot Concepts</span>
+  <span class="headline">GitHub Copilot and AI Concepts</span>
 </h1>
-
-**Learning Objective:** By the end of this lesson, students will understand the basics of the Express framework, its applications, and the core functionalities of web application frameworks.
-
 
 ## 🔹 What is Vibe Coding?
 
@@ -21,6 +18,7 @@ It’s called vibe coding because you’re coding based on the flow or vibe of t
 
 Got it — let’s break down “vibe coding” in a way that makes sense to someone with about 1 year of programming experience.
 
+<br>
 
 ## 🔹 Why Vibe Coding Works
 
@@ -30,10 +28,11 @@ Got it — let’s break down “vibe coding” in a way that makes sense to som
 
 ⚠️ But: It can produce messy or incorrect code if you don’t review and test carefully.
 
+<br>
 
 ## 🔹 Example 1: Minimal Prompt → AI Fills the Gaps
 
-__// make a todo app backend with express__
+__SAMPLE PROMPT:__ "make a todo app backend with express"
 
 Copilot might generate:
 
@@ -59,11 +58,13 @@ app.listen(3000, () => console.log('Server running on port 3000'));
 
 👉 You didn’t specify endpoints, data structure, or error handling — Copilot “vibed” a simple backend for you.
 
+<br>
+
 ## 🔹 Example 2: Building on the Vibe
 
-Now you add:
+Now you add...
 
-__// add delete endpoint__
+__SAMPLE PROMPT:__ "add delete endpoint"
 
 Copilot suggests:
 
@@ -77,11 +78,13 @@ app.delete('/todos/:id', (req, res) => {
 
 👉 You didn’t explain how to delete — Copilot inferred from the existing vibe of your code.
 
+<br>
+
 ## 🔹 Example 3: UI Vibe Coding
 
-In React:
+Here's a React example...
 
-__// make a button that toggles dark mode__
+__SAMPLE PROMPT:__ "make a button that toggles dark mode"
 
 Copilot might generate:
 
@@ -101,6 +104,8 @@ export default function DarkModeButton() {
 
 👉 You didn’t describe state, labels, or logic. The AI “vibed” a standard pattern.
 
+<br>
+
 ## 🔹 When to Use Vibe Coding
 
 ✅ Good for:
@@ -115,11 +120,15 @@ export default function DarkModeButton() {
 * Security-sensitive code (auth, encryption, etc.)
 * Complex algorithms that need careful design
 
+<br>
+
 ## 🔹 Key Learnings
 * Vibe coding = fast, playful, exploratory coding with AI.
 * You give AI loose hints → it generates code → you refine together.
 * Always review and test what you accept, because AI isn’t always correct.
 
+
+<br>
 
 ## What is “Context” in GitHub Copilot?
 
@@ -127,6 +136,8 @@ When you use GitHub Copilot, it doesn’t just look at the one line you’re typ
 
 Think of context as the “hints” you give Copilot so it can generate the right code for you.
 
+
+<br>
 
 ## Ways Copilot Gets Context
 
@@ -136,7 +147,7 @@ Think of context as the “hints” you give Copilot so it can generate the righ
 
 **Comments / Prompts**
 * You can write a natural language comment (like a mini-prompt).
-* Example: `// function to calculate factorial using recursion`
+* Example: `function to calculate factorial using recursion`
 * Copilot will then generate the function code.
 
 **Other Files in the Project**
@@ -144,11 +155,12 @@ Think of context as the “hints” you give Copilot so it can generate the righ
 
 **Your Coding Style**
 * Copilot learns the patterns in your current file (indentation, naming conventions, etc.) and matches them.
-* Copilot learns the patterns in your current file (indentation, naming conventions, etc.) and matches them.
+
+<br>
 
 ## 🔹 Example 1: Weak Context (Vague Prompt)
 
-__// make a function__
+__SAMPLE PROMPT:__ "make a function"
 
 Copilot might generate something random like:
 
@@ -160,9 +172,11 @@ function myFunction() {
 
 👉 Because the context is vague, the result isn’t useful.
 
+<br>
+
 ## 🔹  Example 2: Strong Context (Clear Prompt)
 
-__// function that takes an array of numbers and returns the average__
+__SAMPLE PROMPT:__ "function that takes an array of numbers and returns the average"
 
 
 Copilot might generate something random like:
@@ -179,6 +193,8 @@ function average(numbers) {
 ```
 
 👉 Much better — clear instructions in the comment gave Copilot enough context.
+
+<br>
 
 ### 🔹  Example 3: Using Existing Code as Context
 
@@ -209,6 +225,8 @@ Copilot will likely complete it as:
 * Use **descriptive comments** instead of vague ones.
 * Let Copilot “see” enough surrounding code so it understands the pattern.
 * Think of context like giving **directions to a helper**: the clearer you are, the better the results.
+
+<br>
 
 ## 📝 Mini Exercise: Copilot Context in Action (Time Permitting)
 
