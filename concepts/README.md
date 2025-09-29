@@ -2,6 +2,19 @@
   <span class="headline">GitHub Copilot and AI Concepts</span>
 </h1>
 
+## 🔹 What Makes a Good Prompt?
+
+What Makes a Good Prompt? The 4 Cs...
+
+- __Clear__: Prompts should be direct and unambiguous to avoid confusion. Use clear, precise language.
+- __Commanding__: Ask for exactly what you want - don’t beat around the bush. Use imperatives like "Explain", "List", "Compare".
+- __Concise__: If you’re creating a prompt for a business app, longer prompts may end up being more costly and may slow the user down.
+- __Contextual__: Give the model as much information as it needs to respond to your prompt effectively.
+
+[How to write better prompts for GitHub Copilot](https://github.blog/developer-skills/github/how-to-write-better-prompts-for-github-copilot/)
+
+<br>
+
 ## 🔹 What is Vibe Coding?
 
 Vibe coding is a style of working with AI code assistants (like GitHub Copilot or ChatGPT) where you don’t write detailed specs or requirements upfront.
